@@ -58,6 +58,10 @@ nav input[type="checkbox"] {
 nav input[type="checkbox"]:checked ~ .navbar .navitems {
   display: block;
   transition: all 0.2s ease-out;
+  margin-top:8%
+}
+nav input[type="checkbox"]:checked ~ .navbar {
+height:100vh;
 }
 .nav-toggle-label {
   position: absolute;
